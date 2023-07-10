@@ -297,6 +297,9 @@
     .push__description {
         font-size: 20px;
     }
+    .workout__descrip {
+        font-size: 5px;
+    }
 }
 
 
