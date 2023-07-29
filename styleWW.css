@@ -297,9 +297,6 @@
     .push__description {
         font-size: 20px;
     }
-    .workout__descrip {
-        font-size: 5px;
-    }
 }
 
 
@@ -354,12 +351,12 @@
     color:#c7f1d8;
     font-size: 30px;
     padding-left: 100px;
-    padding-right: 400px;
+    padding-right: 100px;
     border: #3f845c;
     border-width: 10px;
     border-style: ridge;
     border-radius: 60px;
-    padding: 40px 40px 40px 40px;
+    padding: 5px 40px 40px 40px;
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 50px;
@@ -368,11 +365,14 @@
 
 @media screen and (max-width: 768px) {
     .pull__heading {
-        font-size: 60px;
+        font-size: 30px;
     }
 
     .pull__description {
-        font-size: 20px;
+        font-size: 10px;
+    }
+    .workout__descrip {
+        font-size: 10px;
     }
 }
 
@@ -481,6 +481,8 @@
     padding-right: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
+    justify-content: left;
+    text-align: left;
 }
 .abs {
     background-color: #66c48e;
